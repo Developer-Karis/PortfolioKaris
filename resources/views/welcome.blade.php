@@ -26,16 +26,16 @@
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger active" href="#page-top">Accueil</a>
+                        <a class="nav-link js-scroll-trigger active" href="#page-top">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" href="#carouselExampleIndicators">A propos de moi</a>
+                        <a class="nav-link js-scroll-trigger" href="#carouselExampleIndicators">About Me</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link js-scroll-trigger" href="#projects">Services</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" href="#about">Projets</a>
+                        <a class="nav-link js-scroll-trigger" href="#about">Projects</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link js-scroll-trigger" href="#about">Blog</a>
@@ -82,12 +82,13 @@
     {{-- Home Wallpaper Present --}}
     <div class="home">
         <div class="write">
-            <h1>Je suis un <span class="type"></span>.</h1>
+            <h1 class="text-center">I am Karis Papadopoulos <br><span class="type"></span></h1>
         </div>
     </div>
 
     {{-- About Me --}}
     <div>
+
     </div>
     <!-- Bootstrap core JS-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -97,7 +98,7 @@
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
     <script>
         var typed = new Typed('.type', {
-            strings: ['Développeur Web', 'Développeur Front-End', 'Développeur Back-End'],
+            strings: ['Web Developer', 'Front-End Developer', 'Back-End Developer'],
             typeSpeed: 60,
             backSpeed: 60,
             loop:true,
