@@ -10907,10 +10907,6 @@ body {
   background-color: #f5f5f5;
 }
 
-nav {
-  background-color: #fff;
-}
-
 .nav-link {
   color: #0078ff !important;
   font-weight: bold;
@@ -10928,18 +10924,26 @@ nav {
 
 .nav-item .nav-link {
   font-weight: bold !important;
+  transition: all 0.2s ease-in-out !important;
+  font-size: 15px !important;
 }
 
 .nav-item .nav-link:hover {
-  border-bottom: 2px solid #0078ff;
+  color: crimson !important;
+  transform: scale(1.2) !important;
 }
 
 .navbar-brand {
   font-size: 1.6rem;
   color: #0078ff !important;
+  transition: all 0.2s ease-in-out !important;
 }
 
-.btn-login-register {
+.navbar-brand:hover {
+  transform: scale(1.2) !important;
+}
+
+.btn-lr {
   padding: 10px 20px;
   border: 2px solid #0078ff;
   outline: none;
@@ -10949,9 +10953,11 @@ nav {
   font-weight: bold;
   margin-left: 10px;
   color: #0078ff;
+  transition: all 0.2s ease-in-out !important;
 }
 
-.btn-login-register:hover {
+.btn-lr:hover {
+  transform: scale(1.2) !important;
   background-color: #0078ff;
   color: #fff;
   border: 2px solid black;
@@ -10967,7 +10973,7 @@ nav {
 
 div h1 {
   position: absolute;
-  top: 42%;
+  top: 44%;
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 50px;
@@ -10976,5 +10982,28 @@ div h1 {
 
 div h1 .type {
   color: #0078ff;
+}
+
+.text-user {
+  color: #0078ff;
+  font-weight: bold;
+}
+
+.dropdown-item:hover {
+  background-color: lightgray;
+}
+
+.dropdown-item span {
+  padding-left: 15px !important;
+}
+
+.dropdown-item svg {
+  width: 20px !important;
+  height: 20px !important;
+}
+
+.user-name {
+  font-size: 15px;
+  text-transform: capitalize;
 }
 
