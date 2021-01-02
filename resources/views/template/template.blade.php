@@ -42,7 +42,7 @@
                         <a class="nav-link js-scroll-trigger active" href="#page-top">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" href="#carouselExampleIndicators">About Me</a>
+                        <a class="nav-link js-scroll-trigger" href="#aboutme">About Me</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link js-scroll-trigger" href="#projects">Services</a>
@@ -100,7 +100,8 @@
                             <a class="dropdown-item" href="#">
                                 <i class="fas fa-envelope fa-lg"></i>
                                 <span>Messages</span>
-                                <span class="badge badge-danger ml-2" style="padding: 5px !important;">4</span>
+                                <span class="badge badge-danger ml-2"
+                                    style="padding: 5px !important; margin-left: 25px !important;">4</span>
                             </a>
                             <a class="dropdown-item" href="#">
                                 <i class="fas fa-cog fa-lg"></i>
