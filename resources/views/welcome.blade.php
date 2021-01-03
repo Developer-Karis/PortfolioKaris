@@ -198,4 +198,254 @@
         </div>
     </div>
 </section>
+{{-- Projects --}}
+<section id="projects" class="spacing">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <h2 class="title-services text-center mt-5 font-weight-bold">PROJECTS</h2>
+                <hr class="ligne-separator-services">
+            </div>
+        </div>
+        <div class="services mt-4">
+            <div class="row">
+                <div class="col-4">
+                    <div class="card shadow mb-5 bg-white rounded" style="width: 22rem;">
+                        <div class="parent-projects">
+                            <div class="bg-projects-one"></div>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title font-weight-bold">Vivez Vos Rêves</h5>
+                            <div class="d-flex mt-4">
+                                <a href="https://severeclick-dev.github.io/VivezVosReves/index.html"
+                                    class="buttons-projects btn btn-success mr-2 w-100" target="_blank">Demo</a>
+                                <a href="https://github.com/SEVERECLICK-dev/VivezVosReves"
+                                    class="buttons-projects btn btn-primary ml-2 w-100" target="_blank">Link Github</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="card shadow mb-5 bg-white rounded" style="width: 22rem;">
+                        <div class="parent-projects">
+                            <div class="bg-projects-two"></div>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title font-weight-bold">Emporium</h5>
+                            <div class="d-flex mt-4">
+                                <a href="https://severeclick-dev.github.io/KarisAbdelEmporium/#home"
+                                    class="buttons-projects btn btn-success mr-2 w-100" target="_blank">Demo</a>
+                                <a href="https://github.com/SEVERECLICK-dev/KarisAbdelEmporium"
+                                    class="buttons-projects btn btn-primary ml-2 w-100" target="_blank">Link Github</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="card shadow mb-5 bg-white rounded" style="width: 22rem;">
+                        <div class="parent-projects">
+                            <div class="bg-projects-three"></div>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title font-weight-bold">Site du Chef</h5>
+                            <div class="d-flex mt-4">
+                                <a href="https://severeclick-dev.github.io/siteDuChef/#home"
+                                    class="buttons-projects btn btn-success mr-2 w-100" target="_blank">Demo</a>
+                                <a href="https://github.com/SEVERECLICK-dev/siteDuChef"
+                                    class="buttons-projects btn btn-primary ml-2 w-100">Link Github</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-2">
+                <div class="col-4">
+                    <div class="card shadow mb-5 bg-white rounded" style="width: 22rem;">
+                        <div class="parent-projects">
+                            <div class="bg-projects-four"></div>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title font-weight-bold">My Travel</h5>
+                            <div class="d-flex mt-4">
+                                <a href="https://severeclick-dev.github.io/ProjectMyTravel/"
+                                    class="buttons-projects btn btn-success mr-2 w-100" target="_blank">Demo</a>
+                                <a href="https://github.com/SEVERECLICK-dev/ProjectMyTravel"
+                                    class="buttons-projects btn btn-primary ml-2 w-100" target="_blank">Link Github</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="card shadow mb-5 bg-white rounded" style="width: 22rem;">
+                        <div class="parent-projects">
+                            <div class="bg-projects-five"></div>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title font-weight-bold">TemplatePortfolio</h5>
+                            <div class="d-flex mt-4">
+                                <a href="https://github.com/SEVERECLICK-dev/TemplatePortfolio"
+                                    class="buttons-projects btn btn-primary w-50 m-auto" target="_blank">Link Github</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="card shadow mb-5 bg-white rounded" style="width: 22rem;">
+                        <div class="parent-projects">
+                            <div class="bg-projects-six"></div>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title font-weight-bold">Help Messenger</h5>
+                            <div class="d-flex mt-4">
+                                <a href="https://github.com/SEVERECLICK-dev/HackathonGroupe4"
+                                    class="buttons-projects btn btn-primary w-50 m-auto" target="_blank">Link Github</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+{{-- Counter Up --}}
+<section class="spacing">
+    <div class="middle shadow mb-5 bg-white rounded">
+        <div class="counting-sec">
+            <div class="inner-width">
+                <div class="col">
+                    <i class="fas fa-users fa-4x text-warning"></i>
+                    <div class="num">3</div>
+                    <h5>CUSTOMERS</h5>
+                </div>
+                <div class="col">
+                    <i class="fas fa-keyboard fa-4x text-warning"></i>
+                    <div class="num">10</div>
+                    <h5>PROJECTS COMPLETED</h5>
+                </div>
+                <div class="col">
+                    <i class="fas fa-hourglass-half fa-4x text-warning"></i>
+                    <div class="num">512</div>
+                    <h5>Working Hours</h5>
+                </div>
+                <div class="col">
+                    <i class="fas fa-bug fa-4x text-warning"></i>
+                    <div class="num">12</div>
+                    <h5>BUGS</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        $(".num").counterUp({delay:5, time:1000});
+    </script>
+</section>
+
+{{-- Counter Up --}}
+<section id="blog" class="spacing">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <h2 class="title-blog text-center mt-5 font-weight-bold">BLOG</h2>
+                <hr class="ligne-separator-blog">
+            </div>
+        </div>
+        <div class="blog mt-5">
+            <div class="row">
+                <div class="col-4">
+                    <div class="card shadow mb-5 bg-white rounded" style="width: 21rem;">
+                        <img class="card-img-top" src="{{asset('img/post-1.jpg')}}" alt="Card image cap" height="230">
+                        <div class="card-body">
+                            <h5 class="card-title font-weight-bold">Travel</h5>
+                            <p class="card-text text-justify">Some quick example text to build on the card title and
+                                make up the bulk
+                                of
+                                the card's content.</p>
+                            <div class="d-flex mt-5 mb-3">
+                                <a href="#" class="buttons-blog btn btn-primary w-50 m-auto">Read More</a>
+                            </div>
+                        </div>
+                        <div class="bg-light p-2">
+                            @auth
+                            <div>
+                                <img src="{{asset('img/avatardefault.png')}}" alt="" height="35" class="ml-3">
+                                <span class="user-post-content ml-2 text-capitalize">{{Auth::user()->name}}</span>
+                                <span class="ml-3 font-weight-bold"><i
+                                        class="fas fa-heart mr-1 text-danger"></i>12</span>
+                                <span class="ml-4 font-weight-bold"><i
+                                        class="fas fa-thumbs-up mr-1 text-primary"></i>48</span>
+                                <span class="pull-right mt-1 mr-2 font-weight-bold"><i class="far fa-clock"></i> 10
+                                    min</span>
+                            </div>
+                            @endauth
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="card shadow mb-5 bg-white rounded" style="width: 21rem;">
+                        <img class="card-img-top" src="{{asset('img/post-2.jpg')}}" alt="Card image cap" height="230">
+                        <div class="card-body">
+                            <h5 class="card-title font-weight-bold">Design Website</h5>
+                            <p class="card-text text-justify">Some quick example text to build on the card title and
+                                make up the bulk
+                                of
+                                the card's content.</p>
+                            <div class="d-flex mt-5 mb-3">
+                                <a href="#" class="buttons-blog btn btn-primary w-50 m-auto">Read More</a>
+                            </div>
+                        </div>
+                        <div class="bg-light p-2">
+                            @auth
+                            <div>
+                                <img src="{{asset('img/avatardefault.png')}}" alt="" height="35" class="ml-3">
+                                <span class="user-post-content ml-2 text-capitalize">{{Auth::user()->name}}</span>
+                                <span class="ml-3 font-weight-bold"><i
+                                        class="fas fa-heart mr-1 text-danger"></i>36</span>
+                                <span class="ml-4 font-weight-bold"><i
+                                        class="fas fa-thumbs-up mr-1 text-primary"></i>41</span>
+                                <span class="pull-right mt-1 mr-2 font-weight-bold"><i class="far fa-clock"></i> 30
+                                    min</span>
+                            </div>
+                            @endauth
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="card shadow mb-5 bg-white rounded" style="width: 21rem;" height="250">
+                        <img class="card-img-top" src="{{asset('img/post-3.jpg')}}" alt="Card image cap" height="230">
+                        <div class="card-body">
+                            <h5 class="card-title font-weight-bold">Work in Team</h5>
+                            <p class="card-text text-justify">Some quick example text to build on the card title and
+                                make up the bulk
+                                of
+                                the card's content.</p>
+                            <div class="d-flex mt-5 mb-3">
+                                <a href="#" class=" buttons-blog btn btn-primary w-50 m-auto">Read More</a>
+                            </div>
+                        </div>
+                        <div class="bg-light p-2">
+                            @auth
+                            <div>
+                                <img src="{{asset('img/avatardefault.png')}}" alt="" height="35" class="ml-3">
+                                <span class="user-post-content ml-2 text-capitalize">{{Auth::user()->name}}</span>
+                                <span class="ml-3 font-weight-bold"><i
+                                        class="fas fa-heart mr-1 text-danger"></i>22</span>
+                                <span class="ml-4 font-weight-bold"><i
+                                        class="fas fa-thumbs-up mr-1 text-primary"></i>64</span>
+                                <span class="pull-right mt-1 mr-2 font-weight-bold"><i class="far fa-clock"></i> 42
+                                    min</span>
+                            </div>
+                            @endauth
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+{{-- Contact --}}
+<section id="contact" class="spacing">
+
+</section>
 @stop

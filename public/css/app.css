@@ -11093,7 +11093,7 @@ div h1 .type {
 
 .title-services {
   font-size: 35px;
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .title-show-services {
@@ -11116,10 +11116,155 @@ div h1 .type {
 .services-content:hover .circle-icon {
   transition: all 0.2s ease-in-out !important;
   transform: scale(1.3);
-  color: #001F3F;
+  color: #001f3f;
 }
 
 .para-services {
   font-size: 15.5px;
+}
+
+.bg-projects-one {
+  background-image: url("/images/project 1.png?c9dd709d42eb68f0e104ac53745457bd");
+  height: 200px;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  transition: all 2s;
+}
+
+.bg-projects-two {
+  background-image: url("/images/project 2.png?953b3ec8869a5a5d572acffccbdabbfa");
+  height: 200px;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  transition: all 2s;
+}
+
+.bg-projects-three {
+  background-image: url("/images/project 6.png?29fd04eda0a874a303a43f3f69486b00");
+  height: 200px;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  transition: all 2s;
+}
+
+.bg-projects-four {
+  background-image: url("/images/project 3.png?29623161045000b8ad00b7b68f24b59e");
+  height: 200px;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  transition: all 2s;
+}
+
+.bg-projects-five {
+  background-image: url("/images/project 4.png?968a9cb39305084c667b6617c1a57fda");
+  height: 200px;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  transition: all 2s;
+}
+
+.bg-projects-six {
+  background-image: url("/images/project 5.png?6e572ff14e6a6e6a2b5a7a3a8e378e90");
+  height: 200px;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  transition: all 2s;
+}
+
+.parent-projects {
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.parent-projects:hover .bg-projects-one {
+  transform: scale(1.4);
+}
+
+.parent-projects:hover .bg-projects-two {
+  transform: scale(1.4);
+}
+
+.parent-projects:hover .bg-projects-three {
+  transform: scale(1.4);
+}
+
+.parent-projects:hover .bg-projects-four {
+  transform: scale(1.4);
+}
+
+.parent-projects:hover .bg-projects-five {
+  transform: scale(1.4);
+}
+
+.parent-projects:hover .bg-projects-six {
+  transform: scale(1.4);
+}
+
+.buttons-projects {
+  transition: all 0.4s ease-in-out !important;
+  font-size: 16px;
+}
+
+.buttons-projects:hover {
+  transform: scale(1.1) !important;
+}
+
+.counting-sec {
+  padding: 40px 0;
+  width: 100%;
+  background: linear-gradient(90deg, #3c6382, #82ccdd);
+}
+
+.inner-width {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+}
+
+.inner-width .col {
+  flex: 1;
+  text-align: center;
+  padding: 20px;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.num {
+  font-size: 50px !important;
+  margin: 20px 0;
+}
+
+.title-blog {
+  font-size: 35px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.ligne-separator-blog {
+  width: 5%;
+  background-color: #0078ff;
+  height: 3px;
+}
+
+.user-post-content {
+  font-size: 18px;
+}
+
+.pull-right {
+  float: right !important;
+}
+
+.buttons-blog {
+  padding: 15px;
+  transition: all 0.2s ease-in-out;
+}
+
+.buttons-blog:hover {
+  transform: scale(1.2);
+  background-color: lightblue;
+  color: black;
+  font-weight: bold;
 }
 

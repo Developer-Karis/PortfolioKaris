@@ -1,0 +1,111 @@
+.bg-projects-one {
+    background-image: url("img/project 1.png");
+    height: 200px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    transition: all 2s;
+}
+
+.bg-projects-two {
+    background-image: url("img/project 2.png");
+    height: 200px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    transition: all 2s;
+}
+
+.bg-projects-three {
+    background-image: url("img/project 6.png");
+    height: 200px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    transition: all 2s;
+}
+
+.bg-projects-four {
+    background-image: url("img/project 3.png");
+    height: 200px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    transition: all 2s;
+}
+
+.bg-projects-five {
+    background-image: url("img/project 4.png");
+    height: 200px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    transition: all 2s;
+}
+
+.bg-projects-six {
+    background-image: url("img/project 5.png");
+    height: 200px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    transition: all 2s;
+}
+
+.parent-projects {
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.parent-projects:hover .bg-projects-one {
+    transform: scale(1.4);
+}
+
+.parent-projects:hover .bg-projects-two {
+    transform: scale(1.4);
+}
+
+.parent-projects:hover .bg-projects-three {
+    transform: scale(1.4);
+}
+
+.parent-projects:hover .bg-projects-four {
+    transform: scale(1.4);
+}
+
+.parent-projects:hover .bg-projects-five {
+    transform: scale(1.4);
+}
+
+.parent-projects:hover .bg-projects-six {
+    transform: scale(1.4);
+}
+
+.buttons-projects {
+    transition: all 0.4s ease-in-out !important;
+    font-size: 16px;
+    &:hover {
+        transform: scale(1.1) !important;
+    }
+}
+
+.counting-sec {
+    padding: 40px 0;
+    width: 100%;
+    background: linear-gradient(90deg, #3c6382, #82ccdd);
+}
+
+.inner-width {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    .col {
+        flex: 1;
+        text-align: center;
+        padding: 20px;
+        color: #fff;
+        text-transform: uppercase;
+    }
+}
+
+.num {
+    font-size: 50px !important;
+    margin: 20px 0;
+}
