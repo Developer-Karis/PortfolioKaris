@@ -9,7 +9,7 @@
 </div>
 
 {{-- About Me --}}
-<section id="aboutme">
+<section id="aboutme" class="spacing">
     <div class="aboutme container shadow p-3 mb-5 bg-white rounded">
         <div class="row">
             <div class="col-6">
@@ -125,6 +125,74 @@
                         provident. Et tempore ullam quis soluta Et tempore ullam quis soluta Et tempore ullam quis
                         soluta qsdqsdqzeazeaz.
                     </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+{{-- Services --}}
+<section id="services" class="spacing">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <h2 class="title-services text-center mt-5 font-weight-bold">SERVICES</h2>
+                <hr class="ligne-separator-services">
+            </div>
+        </div>
+        <div class="services mt-4">
+            <div class="row">
+                <div class="col-4">
+                    <div class="services-content text-center">
+                        <i class="fas fa-tv fa-4x circle-icon"></i>
+                        <h4 class="title-show-services mt-5 font-weight-bold">WEB DESIGN</h4>
+                        <p class="mt-4 font-weight-bold para-services">The design is beautiful on a website. <br>
+                            We can attract customers.</p>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="services-content text-center">
+                        <i class="fas fa-code fa-4x circle-icon"></i>
+                        <h4 class="title-show-services mt-5 font-weight-bold">WEB DEVELOPMENT</h4>
+                        <p class="mt-4 font-weight-bold para-services">The development is the heart of a website. <br>
+                            This is the logical and dynamic part.</p>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="services-content text-center">
+                        <i class="fas fa-mobile-alt fa-4x circle-icon"></i>
+                        <h4 class="title-show-services mt-5 font-weight-bold">REPSONSIVE DESIGN</h4>
+                        <p class="mt-4 font-weight-bold para-services">The responsive design allows you to <br> deploy a
+                            website on
+                            all devices.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-3">
+                <div class="col-4">
+                    <div class="services-content text-center">
+                        <i class="fas fa-eye fa-4x circle-icon"></i>
+                        <h4 class="title-show-services mt-5 font-weight-bold">FRONT-END</h4>
+                        <p class="mt-4 font-weight-bold para-services">The customer can see the website. <br>
+                            Only the part visual.</p>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="services-content text-center">
+                        <i class="fas fa-user-lock fa-4x circle-icon"></i>
+                        <h4 class="title-show-services mt-5 font-weight-bold">BACK-END</h4>
+                        <p class="mt-4 font-weight-bold para-services">Admin can manage all the website. <br>
+                            He can also manage the rights of each user.</p>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="services-content text-center">
+                        <i class="fas fa-users fa-4x circle-icon"></i>
+                        <h4 class="title-show-services mt-5 font-weight-bold">SATISFY CUSTOMERS</h4>
+                        <p class="mt-4 font-weight-bold para-services">This is the most important mission <br> when we
+                            start designing
+                            the website.</p>
+                    </div>
                 </div>
             </div>
         </div>
