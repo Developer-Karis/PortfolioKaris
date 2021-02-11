@@ -10991,6 +10991,24 @@ div h1 .type {
   color: #0078ff;
 }
 
+.buttonHome {
+  position: absolute;
+  top: 60%;
+  left: 36%;
+  padding: 10px 20px;
+  background-color: white;
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
+  border: 1.5px solid black;
+  text-decoration: none !important;
+}
+
+.buttonHome:hover {
+  color: white;
+  background-color: black;
+}
+
 .text-user {
   color: #0078ff;
   font-weight: bold;
@@ -11014,6 +11032,27 @@ div h1 .type {
   text-transform: capitalize;
 }
 
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 15px;
+  right: 15px;
+  z-index: 99;
+  font-size: 20px;
+  border: none;
+  outline: none;
+  background: #298eff;
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  color: white;
+}
+
+#myBtn:hover {
+  background: #5ca8ff;
+}
+
 .spacing {
   padding-top: 3rem;
 }
@@ -11023,20 +11062,24 @@ div h1 .type {
   padding: 40px 0px !important;
   border-radius: 5px;
   background-color: #fff;
+  font-weight: 500;
 }
 
 .about-img {
   margin: auto;
-  padding-left: 50px;
+  padding-left: 60px;
+  margin-top: 18px;
 }
 
 .about-title {
   margin-top: 22px;
-  font-size: 15.2px;
+  margin-left: 40px;
+  font-size: 15px;
 }
 
 .title {
   font-weight: bold;
+  font-size: 17px;
 }
 
 .ligne-separator-about {
@@ -11050,6 +11093,10 @@ div h1 .type {
   margin-left: 65px;
 }
 
+.skill h2 {
+  margin-left: 15px;
+}
+
 .progress {
   background-color: #cde1f8;
   height: 8px;
@@ -11057,6 +11104,7 @@ div h1 .type {
 
 .title-skill {
   font-size: 16px;
+  font-weight: bold;
 }
 
 .top-progress {
@@ -11083,6 +11131,22 @@ div h1 .type {
 .link {
   color: #0078ff;
   font-weight: 600;
+  text-decoration: none !important;
+}
+
+.link:hover {
+  color: crimson;
+}
+
+.icon-background {
+  color: black;
+}
+
+.animationSkills {
+  -webkit-animation: tada infinite;
+          animation: tada infinite;
+  -webkit-animation-duration: 6s;
+          animation-duration: 6s;
 }
 
 .ligne-separator-services {
@@ -11106,16 +11170,27 @@ div h1 .type {
   background-color: #fff;
   border-radius: 5px;
   border: 2px solid black;
-  transition: all 0.2s ease-in-out !important;
+  transition: all 0.4s ease-in-out !important;
 }
 
 .services-content:hover {
   background-color: #7fdbff;
+  transform: translateY(-20px) !important;
+  color: #001f3f;
+}
+
+.services-content:hover h4 {
+  -webkit-animation: zoomIn;
+          animation: zoomIn;
+  /* referring directly to the animation's @keyframe declaration */
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  /* don't forget to set a duration! */
 }
 
 .services-content:hover .circle-icon {
-  transition: all 0.2s ease-in-out !important;
-  transform: scale(1.3);
+  transition: all 0.4s ease-in-out !important;
+  transform: scale(1.2);
   color: #001f3f;
 }
 

@@ -1,6 +1,7 @@
 @extends('template.template')
 
 @section('content')
+<button onclick="topFunction()" id="myBtn"><i class="fas fa-arrow-up fa-1x"></i></button>
 {{-- Home Content --}}
 <div class="home">
     <div class="write">
@@ -8,18 +9,20 @@
     </div>
 </div>
 
+<a class="buttonHome" href="/#projects">See my projects</a>
 {{-- About Me --}}
 <section id="aboutme" class="spacing">
     <div class="aboutme container shadow p-3 mb-5 bg-white rounded">
+        <div class="spacing"></div>
         <div class="row">
             <div class="col-6">
                 <div class="row">
-                    <div class="col-sm-6">
+                    <div class="col-sm-5">
                         <div class="about-img">
                             <img src="{{asset('img/avatardefault.png')}}" alt="" height="200">
                         </div>
                     </div>
-                    <div class="col-sm-6">
+                    <div class="col-sm-7">
                         <div class="about-title">
                             <p>
                                 <span class="title">Name :</span> Karis Papadopoulos
@@ -30,9 +33,9 @@
                                     target="_blank">Karis Papadopoulos</a>
                             </p>
                             <p>
-                                <span class="title">Github Link :</span>
-                                <a class="link" href="https://github.com/SEVERECLICK-dev"
-                                    target="_blank">SEVERECLICK-dev</a>
+                                <span class="title">Github :</span>
+                                <a class="link" href="https://github.com/Developer-Karis"
+                                    target="_blank">Developer-Karis</a>
                             </p>
                             <p>
                                 <span class="title">Email :</span> papadopouloskaris@gmail.com
@@ -44,55 +47,57 @@
                     </div>
                 </div>
                 <div class="skill">
-                    <h2 class="mb-5">My Skills</h2>
-                    <div class="skill-progress">
-                        <div class="top-progress">
-                            <span class="title-skill">HTML, CSS, SASS, BOOTSTRAP</span>
-                            <span class="pull-right">85%</span>
+                    <h2 class="mb-5 mt-5 font-weight-bold">My Skills</h2>
+                    <div class="row">
+                        <div class="col-3">
+                            <span class="fa-stack fa-3x animationSkills">
+                                <i class="fa fa-square fa-stack-2x icon-background"></i>
+                                <i class="fab fa-html5 fa-stack-1x" style="color: #E54D26;"></i>
+                            </span>
                         </div>
-                        <div class="progress">
-                            <div class="progress-bar" role="progressbar" style="width: 85%;" aria-valuenow="25"
-                                aria-valuemin="0" aria-valuemax="100"></div>
+                        <div class="col-3">
+                            <span class="fa-stack fa-3x animationSkills">
+                                <i class="fa fa-square fa-stack-2x icon-background"></i>
+                                <i class="fab fa-css3-alt fa-stack-1x" style="color: #379AD5;"></i>
+                            </span>
                         </div>
-                    </div>
-                    <div class="skill-progress">
-                        <div class="top-progress">
-                            <span class="title-skill">JAVASCRIPT</span>
-                            <span class="pull-right">75%</span>
+                        <div class="col-3">
+                            <span class="fa-stack fa-3x animationSkills">
+                                <i class="fa fa-square fa-stack-2x icon-background"></i>
+                                <i class="fab fa-sass fa-stack-1x" style="color: #C76494;"></i>
+                            </span>
                         </div>
-                        <div class="progress">
-                            <div class="progress-bar" role="progressbar" style="width: 75%;" aria-valuenow="25"
-                                aria-valuemin="0" aria-valuemax="100"></div>
-                        </div>
-                    </div>
-                    <div class="skill-progress">
-                        <div class="top-progress">
-                            <span class="title-skill">PHP</span>
-                            <span class="pull-right">70%</span>
-                        </div>
-                        <div class="progress">
-                            <div class="progress-bar" role="progressbar" style="width: 70%;" aria-valuenow="25"
-                                aria-valuemin="0" aria-valuemax="100"></div>
+                        <div class="col-3">
+                            <span class="fa-stack fa-3x animationSkills">
+                                <i class="fa fa-square fa-stack-2x icon-background"></i>
+                                <i class="fab fa-bootstrap fa-stack-1x" style="color: purple;"></i>
+                            </span>
                         </div>
                     </div>
-                    <div class="skill-progress">
-                        <div class="top-progress">
-                            <span class="title-skill">LARAVEL</span>
-                            <span class="pull-right">50%</span>
+                    <div class="row mt-4">
+                        <div class="col-3">
+                            <span class="fa-stack fa-3x animationSkills">
+                                <i class="fa fa-square fa-stack-2x icon-background"></i>
+                                <i class="fab fa-js fa-stack-1x" style="color: yellow;"></i>
+                            </span>
                         </div>
-                        <div class="progress">
-                            <div class="progress-bar" role="progressbar" style="width: 50%;" aria-valuenow="25"
-                                aria-valuemin="0" aria-valuemax="100"></div>
+                        <div class="col-3">
+                            <span class="fa-stack fa-3x animationSkills">
+                                <i class="fa fa-square fa-stack-2x icon-background"></i>
+                                <i class="fab fa-php fa-stack-1x text-white"></i>
+                            </span>
                         </div>
-                    </div>
-                    <div class="skill-progress">
-                        <div class="top-progress">
-                            <span class="title-skill">MYSQL</span>
-                            <span class="pull-right">60%</span>
+                        <div class="col-3">
+                            <span class="fa-stack fa-3x animationSkills">
+                                <i class="fa fa-square fa-stack-2x icon-background"></i>
+                                <i class="fab fa-laravel fa-stack-1x text-danger"></i>
+                            </span>
                         </div>
-                        <div class="progress">
-                            <div class="progress-bar" role="progressbar" style="width: 60%;" aria-valuenow="25"
-                                aria-valuemin="0" aria-valuemax="100"></div>
+                        <div class="col-3">
+                            <span class="fa-stack fa-3x animationSkills">
+                                <i class="fa fa-square fa-stack-2x icon-background"></i>
+                                <i class="fas fa-database fa-stack-1x" style="color: #005681;"></i>
+                            </span>
                         </div>
                     </div>
                 </div>
@@ -104,27 +109,20 @@
                 </div>
                 <div class="about-text px-5">
                     <p class="about-text text-justify">
-                        Hello, My name is Karis Papadopoulos. I love to create different website with a beautiful
-                        design.
+                        Hello, My name is Karis Papadopoulos. <br>
+                        I love to create different website with a beautiful design.
                     </p>
                     <p class="about-text text-justify">
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum impedit, cupiditate ab eum in
-                        nemo
-                        eveniet. Et tempore ullam quis soluta cumque ex in quos quaerat provident. Nisi, facere minus!
-                        Ipsa, qui minus? Beatae dolorem, quibusdam eum est debitis veniam harum culpa consectetur
-                        exercitationem blanditiis nemo animi quo mollitia similique corporis sunt ipsa sed ex veritatis
-                        velit quam aut deserunt?
+                        Passionate about the fascinating world of the web, I was interested in different programming
+                        languages. <br><br> Versatile, I learned to make creative and original websites. Today, I am
+                        looking for
+                        any new opportunity that would allow me to take onnew challenges and deepen my current skills.
                     </p>
-                    <p class="about-text text-justify">
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum impedit, cupiditate ab eum in
-                        nemo
-                        eveniet. Et tempore ullam quis soluta cumque ex in quos quaerat provident. Nisi, facere minus!
-                        Ipsa, qui minus? Beatae dolorem, quibusdam eum est debitis veniam harum culpa consectetur
-                        exercitationem blanditiis nemo animi quo mollitia similique corporis sunt ipsa sed ex veritatis
-                        velit quam aut deserunt?eveniet. Et tempore ullam quis soluta cumque ex in quos quaerat
-                        provident. Et tempore ullam quis soluta Et tempore ullam quis soluta Et tempore ullam quis
-                        soluta qsdqsdqzeazeaz.
-                    </p>
+                    <div class="spacing"></div>
+                    <div class="d-flex justify-content-center align-items-center">
+                        <a href="https://we.tl/t-XR3KknJdQ3" class="btn btn-success mt-4 py-3 px-5 mr-5"
+                            download="Karis Papadopoulos CV FR" style="font-size: 18px;">Download CV</a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -140,7 +138,7 @@
                 <hr class="ligne-separator-services">
             </div>
         </div>
-        <div class="services mt-4">
+        <div class="services mt-5">
             <div class="row">
                 <div class="col-4">
                     <div class="services-content text-center">
@@ -258,7 +256,7 @@
                     </div>
                 </div>
             </div>
-            <div class="row mt-2">
+            <div class="row">
                 <div class="col-4">
                     <div class="card shadow mb-5 bg-white rounded" style="width: 22rem;">
                         <div class="parent-projects">
@@ -300,142 +298,6 @@
                                 <a href="https://github.com/SEVERECLICK-dev/HackathonGroupe4"
                                     class="buttons-projects btn btn-primary w-50 m-auto" target="_blank">Link Github</a>
                             </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-{{-- Counter Up --}}
-<section class="spacing">
-    <div class="middle shadow mb-5 bg-white rounded">
-        <div class="counting-sec">
-            <div class="inner-width">
-                <div class="col">
-                    <i class="fas fa-users fa-4x text-warning"></i>
-                    <div class="num">3</div>
-                    <h5>CUSTOMERS</h5>
-                </div>
-                <div class="col">
-                    <i class="fas fa-keyboard fa-4x text-warning"></i>
-                    <div class="num">10</div>
-                    <h5>PROJECTS COMPLETED</h5>
-                </div>
-                <div class="col">
-                    <i class="fas fa-hourglass-half fa-4x text-warning"></i>
-                    <div class="num">512</div>
-                    <h5>Working Hours</h5>
-                </div>
-                <div class="col">
-                    <i class="fas fa-bug fa-4x text-warning"></i>
-                    <div class="num">12</div>
-                    <h5>BUGS</h5>
-                </div>
-            </div>
-        </div>
-    </div>
-    <script>
-        $(".num").counterUp({delay:5, time:1000});
-    </script>
-</section>
-
-{{-- Counter Up --}}
-<section id="blog" class="spacing">
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-12">
-                <h2 class="title-blog text-center mt-5 font-weight-bold">BLOG</h2>
-                <hr class="ligne-separator-blog">
-            </div>
-        </div>
-        <div class="blog mt-5">
-            <div class="row">
-                <div class="col-4">
-                    <div class="card shadow mb-5 bg-white rounded" style="width: 21rem;">
-                        <img class="card-img-top" src="{{asset('img/post-1.jpg')}}" alt="Card image cap" height="230">
-                        <div class="card-body">
-                            <h5 class="card-title font-weight-bold">Travel</h5>
-                            <p class="card-text text-justify">Some quick example text to build on the card title and
-                                make up the bulk
-                                of
-                                the card's content.</p>
-                            <div class="d-flex mt-5 mb-3">
-                                <a href="#" class="buttons-blog btn btn-primary w-50 m-auto">Read More</a>
-                            </div>
-                        </div>
-                        <div class="bg-light p-2">
-                            @auth
-                            <div>
-                                <img src="{{asset('img/avatardefault.png')}}" alt="" height="35" class="ml-3">
-                                <span class="user-post-content ml-2 text-capitalize">{{Auth::user()->name}}</span>
-                                <span class="ml-3 font-weight-bold"><i
-                                        class="fas fa-heart mr-1 text-danger"></i>12</span>
-                                <span class="ml-4 font-weight-bold"><i
-                                        class="fas fa-thumbs-up mr-1 text-primary"></i>48</span>
-                                <span class="pull-right mt-1 mr-2 font-weight-bold"><i class="far fa-clock"></i> 10
-                                    min</span>
-                            </div>
-                            @endauth
-                        </div>
-                    </div>
-                </div>
-                <div class="col-4">
-                    <div class="card shadow mb-5 bg-white rounded" style="width: 21rem;">
-                        <img class="card-img-top" src="{{asset('img/post-2.jpg')}}" alt="Card image cap" height="230">
-                        <div class="card-body">
-                            <h5 class="card-title font-weight-bold">Design Website</h5>
-                            <p class="card-text text-justify">Some quick example text to build on the card title and
-                                make up the bulk
-                                of
-                                the card's content.</p>
-                            <div class="d-flex mt-5 mb-3">
-                                <a href="#" class="buttons-blog btn btn-primary w-50 m-auto">Read More</a>
-                            </div>
-                        </div>
-                        <div class="bg-light p-2">
-                            @auth
-                            <div>
-                                <img src="{{asset('img/avatardefault.png')}}" alt="" height="35" class="ml-3">
-                                <span class="user-post-content ml-2 text-capitalize">{{Auth::user()->name}}</span>
-                                <span class="ml-3 font-weight-bold"><i
-                                        class="fas fa-heart mr-1 text-danger"></i>36</span>
-                                <span class="ml-4 font-weight-bold"><i
-                                        class="fas fa-thumbs-up mr-1 text-primary"></i>41</span>
-                                <span class="pull-right mt-1 mr-2 font-weight-bold"><i class="far fa-clock"></i> 30
-                                    min</span>
-                            </div>
-                            @endauth
-                        </div>
-                    </div>
-                </div>
-                <div class="col-4">
-                    <div class="card shadow mb-5 bg-white rounded" style="width: 21rem;" height="250">
-                        <img class="card-img-top" src="{{asset('img/post-3.jpg')}}" alt="Card image cap" height="230">
-                        <div class="card-body">
-                            <h5 class="card-title font-weight-bold">Work in Team</h5>
-                            <p class="card-text text-justify">Some quick example text to build on the card title and
-                                make up the bulk
-                                of
-                                the card's content.</p>
-                            <div class="d-flex mt-5 mb-3">
-                                <a href="#" class=" buttons-blog btn btn-primary w-50 m-auto">Read More</a>
-                            </div>
-                        </div>
-                        <div class="bg-light p-2">
-                            @auth
-                            <div>
-                                <img src="{{asset('img/avatardefault.png')}}" alt="" height="35" class="ml-3">
-                                <span class="user-post-content ml-2 text-capitalize">{{Auth::user()->name}}</span>
-                                <span class="ml-3 font-weight-bold"><i
-                                        class="fas fa-heart mr-1 text-danger"></i>22</span>
-                                <span class="ml-4 font-weight-bold"><i
-                                        class="fas fa-thumbs-up mr-1 text-primary"></i>64</span>
-                                <span class="pull-right mt-1 mr-2 font-weight-bold"><i class="far fa-clock"></i> 42
-                                    min</span>
-                            </div>
-                            @endauth
                         </div>
                     </div>
                 </div>

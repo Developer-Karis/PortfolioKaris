@@ -30,7 +30,7 @@
 
 <body id="page-top">
     <!-- Navigation-->
-    <nav class="navbar shadow p-3 mb-5 bg-white rounded navbar-expand-lg fixed-top" id="mainNav">
+    <nav class="navbar shadow p-3 mb-5 bg-white navbar-expand-lg fixed-top" id="mainNav">
         <div class="container">
             <a class="navbar-brand js-scroll-trigger font-weight-bold" href="/">
                 DevKaris</a>
@@ -53,9 +53,6 @@
                     </li>
                     <li class="nav-item">
                         <a class="nav-link js-scroll-trigger" href="#projects">Projects</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" href="#blog">Blog</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link js-scroll-trigger" href="#signup">Contact</a>
@@ -145,6 +142,7 @@
         });
     </script>
     <script src="{{asset('js/app.js')}}"></script>
+    <script src="{{asset('js/button.js')}}"></script>
 </body>
 
 </html>

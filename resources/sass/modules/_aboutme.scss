@@ -7,20 +7,24 @@
     padding: 40px 0px !important;
     border-radius: 5px;
     background-color: #fff;
+    font-weight: 500;
 }
 
 .about-img {
     margin: auto;
-    padding-left: 50px;
+    padding-left: 60px;
+    margin-top: 18px;
 }
 
 .about-title {
     margin-top: 22px;
-    font-size: 15.2px;
+    margin-left: 40px;
+    font-size: 15px;
 }
 
 .title {
     font-weight: bold;
+    font-size: 17px;
 }
 
 .ligne-separator-about {
@@ -32,6 +36,9 @@
 .skill {
     margin-top: 30px;
     margin-left: 65px;
+    h2 {
+        margin-left: 15px;
+    }
 }
 
 .progress {
@@ -41,6 +48,7 @@
 
 .title-skill {
     font-size: 16px;
+    font-weight: bold;
 }
 
 .top-progress {
@@ -67,4 +75,17 @@
 .link {
     color: #0078ff;
     font-weight: 600;
+    text-decoration: none !important;
+    &:hover {
+        color: crimson;
+    }
+}
+
+.icon-background {
+    color: black;
+}
+
+.animationSkills {
+    animation: tada infinite;
+    animation-duration: 6s;
 }
