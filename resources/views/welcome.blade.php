@@ -1,7 +1,7 @@
 @extends('template.template')
 
 @section('content')
-<button onclick="topFunction()" id="myBtn"><i class="fas fa-arrow-up fa-1x"></i></button>
+<button onclick="topFunction()" id="myBtn"><i class="fas fa-arrow-up fa-sm"></i></button>
 {{-- Home Content --}}
 <div class="home">
     <div class="write">
@@ -132,7 +132,7 @@
 {{-- Services --}}
 <section id="services" class="spacing">
     <div class="container">
-        <div class="row">
+        <div class="row mt-3">
             <div class="col-sm-12">
                 <h2 class="title-services text-center mt-5 font-weight-bold">SERVICES</h2>
                 <hr class="ligne-separator-services">

@@ -14,12 +14,12 @@
 }
 
 .services-content {
-    padding: 2.4rem 1.3rem;
+    padding: 2rem 1rem;
     margin-bottom: 3rem;
     background-color: #fff;
     border-radius: 5px;
     border: 2px solid black;
-    transition: all 0.4s ease-in-out !important;
+    transition: all 1s ease-in-out !important;
     &:hover {
         background-color: #7fdbff;
         transform: translateY(-20px) !important;
@@ -29,7 +29,7 @@
             animation-duration: 2s; /* don't forget to set a duration! */
         }
         .circle-icon {
-            transition: all 0.4s ease-in-out !important;
+            transition: all 1s ease-in-out !important;
             transform: scale(1.2);
             color: #001f3f;
         }
