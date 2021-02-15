@@ -2,16 +2,27 @@
 
 @section('content')
 <button onclick="topFunction()" id="myBtn"><i class="fas fa-arrow-up fa-sm"></i></button>
-{{-- Home Content --}}
-<div class="home">
-    <div class="write">
-        <h1 class="text-center">I am Karis Papadopoulos <br><span class="type"></span></h1>
-    </div>
-</div>
 
-<a class="buttonHome" href="/#projects">See my projects</a>
+<!-- ======= Home Section ======= -->
+<section id="hero" class="d-flex align-items-center">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1"
+                data-aos="fade-up" data-aos-delay="200">
+                <h1>I am Karis Papadopoulos <br><span class="type"></span></h1>
+                <div class="d-lg-flex">
+                    <a href="#projects" class="btn-get-started scrollto">See my projects</a>
+                </div>
+            </div>
+            <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-in" data-aos-delay="200">
+                <img src="{{asset('img/hero-img.png')}}" class="img-fluid animated" alt="">
+            </div>
+        </div>
+    </div>
+</section><!-- End Home -->
+
 {{-- About Me --}}
-<section id="aboutme" class="spacing">
+<section id="aboutme" class="spacing" data-aos="fade-right" data-aos-duration="1500">
     <div class="aboutme container shadow p-3 mb-5 bg-white rounded">
         <div class="spacing"></div>
         <div class="row">
@@ -132,7 +143,7 @@
 {{-- Services --}}
 <section id="services" class="spacing">
     <div class="container">
-        <div class="row mt-3">
+        <div class="row mt-4">
             <div class="col-sm-12">
                 <h2 class="title-services text-center mt-5 font-weight-bold">SERVICES</h2>
                 <hr class="ligne-separator-services">
@@ -140,7 +151,7 @@
         </div>
         <div class="services mt-5">
             <div class="row">
-                <div class="col-4">
+                <div class="col-4" data-aos="zoom-in" data-aos-delay="100">
                     <div class="services-content text-center">
                         <i class="fas fa-tv fa-4x circle-icon"></i>
                         <h4 class="title-show-services mt-5 font-weight-bold">WEB DESIGN</h4>
@@ -148,7 +159,7 @@
                             We can attract customers.</p>
                     </div>
                 </div>
-                <div class="col-4">
+                <div class="col-4" data-aos="zoom-in" data-aos-delay="200">
                     <div class="services-content text-center">
                         <i class="fas fa-code fa-4x circle-icon"></i>
                         <h4 class="title-show-services mt-5 font-weight-bold">WEB DEVELOPMENT</h4>
@@ -156,10 +167,10 @@
                             This is the logical and dynamic part.</p>
                     </div>
                 </div>
-                <div class="col-4">
+                <div class="col-4" data-aos="zoom-in" data-aos-delay="300">
                     <div class="services-content text-center">
                         <i class="fas fa-mobile-alt fa-4x circle-icon"></i>
-                        <h4 class="title-show-services mt-5 font-weight-bold">REPSONSIVE DESIGN</h4>
+                        <h4 class="title-show-services mt-5 font-weight-bold">RESPONSIVE DESIGN</h4>
                         <p class="mt-4 font-weight-bold para-services">The responsive design allows you to <br> deploy a
                             website on
                             all devices.</p>
@@ -167,7 +178,7 @@
                 </div>
             </div>
             <div class="row mt-3">
-                <div class="col-4">
+                <div class="col-4" data-aos="zoom-in" data-aos-delay="400">
                     <div class="services-content text-center">
                         <i class="fas fa-eye fa-4x circle-icon"></i>
                         <h4 class="title-show-services mt-5 font-weight-bold">FRONT-END</h4>
@@ -175,7 +186,7 @@
                             Only the part visual.</p>
                     </div>
                 </div>
-                <div class="col-4">
+                <div class="col-4" data-aos="zoom-in" data-aos-delay="500">
                     <div class="services-content text-center">
                         <i class="fas fa-user-lock fa-4x circle-icon"></i>
                         <h4 class="title-show-services mt-5 font-weight-bold">BACK-END</h4>
@@ -183,7 +194,7 @@
                             He can also manage the rights of each user.</p>
                     </div>
                 </div>
-                <div class="col-4">
+                <div class="col-4" data-aos="zoom-in" data-aos-delay="600">
                     <div class="services-content text-center">
                         <i class="fas fa-users fa-4x circle-icon"></i>
                         <h4 class="title-show-services mt-5 font-weight-bold">SATISFY CUSTOMERS</h4>
@@ -199,7 +210,7 @@
 {{-- Projects --}}
 <section id="projects" class="spacing">
     <div class="container">
-        <div class="row">
+        <div class="row mt-4">
             <div class="col-sm-12">
                 <h2 class="title-services text-center mt-5 font-weight-bold">PROJECTS</h2>
                 <hr class="ligne-separator-services">
@@ -207,7 +218,7 @@
         </div>
         <div class="services mt-4">
             <div class="row">
-                <div class="col-4">
+                <div class="col-4" data-aos="flip-down" data-aos-delay="200">
                     <div class="card shadow mb-5 bg-white rounded" style="width: 22rem;">
                         <div class="parent-projects">
                             <div class="bg-projects-one"></div>
@@ -223,7 +234,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-4">
+                <div class="col-4" data-aos="flip-down" data-aos-delay="300">
                     <div class="card shadow mb-5 bg-white rounded" style="width: 22rem;">
                         <div class="parent-projects">
                             <div class="bg-projects-two"></div>
@@ -239,7 +250,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-4">
+                <div class="col-4" data-aos="flip-down" data-aos-delay="400">
                     <div class="card shadow mb-5 bg-white rounded" style="width: 22rem;">
                         <div class="parent-projects">
                             <div class="bg-projects-three"></div>
@@ -257,7 +268,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-4">
+                <div class="col-4" data-aos="flip-down" data-aos-delay="500">
                     <div class="card shadow mb-5 bg-white rounded" style="width: 22rem;">
                         <div class="parent-projects">
                             <div class="bg-projects-four"></div>
@@ -273,7 +284,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-4">
+                <div class="col-4" data-aos="flip-down" data-aos-delay="600">
                     <div class="card shadow mb-5 bg-white rounded" style="width: 22rem;">
                         <div class="parent-projects">
                             <div class="bg-projects-five"></div>
@@ -287,7 +298,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-4">
+                <div class="col-4" data-aos="flip-down" data-aos-delay="700">
                     <div class="card shadow mb-5 bg-white rounded" style="width: 22rem;">
                         <div class="parent-projects">
                             <div class="bg-projects-six"></div>
@@ -308,6 +319,47 @@
 
 {{-- Contact --}}
 <section id="contact" class="spacing">
-
+    <div class="container">
+        <div class="row mt-5">
+            <div class="col-sm-12">
+                <h2 class="title-services text-center mt-5 font-weight-bold">CONTACT</h2>
+                <hr class="ligne-separator-services">
+            </div>
+        </div>
+        <div class="row mt-5">
+            <div class="col-5">
+                <div class="form-contact shadow mb-5 px-4 py-5">
+                    <span class="fa-stack fa-2x">
+                        <i class="fa fa-circle fa-stack-2x" style="color: #E7F5FB;"></i>
+                        <i class="fas fa-map-marker-alt fa-stack-1x" style="color: #69C0E9;"></i>
+                        <h1>Location</h1>
+                    </span>
+                </div>
+            </div>
+            <div class="col-7">
+                <form action="" class="form-contact shadow mb-5">
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <label for="name">Your Name</label>
+                            <input type="text" name="name" class="form-control" />
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label for="name">Your Email</label>
+                            <input type="email" class="form-control" name="email" />
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="">Subject</label>
+                        <input type="text" name="name" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label for="">Message</label>
+                        <textarea name="" cols="30" rows="10" style="resize: none;" class="form-control"></textarea>
+                    </div>
+                    <button class="btn btn-danger rounded text-center">qsdqs</button>
+                </form>
+            </div>
+        </div>
+    </div>
 </section>
 @stop

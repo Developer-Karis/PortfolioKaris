@@ -1,3 +1,14 @@
+// Preloader
+$(window).on("load", function() {
+    if ($("#preloader").length) {
+        $("#preloader")
+            .delay(100)
+            .fadeOut("slow", function() {
+                $(this).remove();
+            });
+    }
+});
+
 mybutton = document.getElementById("myBtn");
 
 window.onscroll = function() {
@@ -21,4 +32,17 @@ function scrollFunction() {
 function topFunction() {
     document.body.scrollTop = 0; // For Safari
     document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+}
+
+// Toggle .header-scrolled class to #header when page is scrolled
+$(window).scroll(function() {
+    if ($(this).scrollTop() > 100) {
+        $(".navbar").addClass("header-scrolled");
+    } else {
+        $(".navbar").removeClass("header-scrolled");
+    }
+});
+
+if ($(window).scrollTop() > 100) {
+    $(".navbar").addClass("header-scrolled");
 }

@@ -15,6 +15,14 @@
     <!-- Font Awesome icons (free version)-->
     <script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" crossorigin="anonymous"></script>
 
+    <!-- Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Jost:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+        rel="stylesheet">
+
+    {{-- AOS SMOOTH DISPLAY --}}
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
     {{-- Jquery & Bootstrap --}}
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
@@ -29,8 +37,10 @@
 </head>
 
 <body id="page-top">
+
+    <div id="preloader">Loading</div>
     <!-- Navigation-->
-    <nav class="navbar shadow p-3 mb-5 bg-white navbar-expand-lg fixed-top" id="mainNav">
+    <nav class="navbar navbar-expand-lg fixed-top" id="mainNav">
         <div class="container">
             <a class="navbar-brand js-scroll-trigger font-weight-bold" href="/">
                 DevKaris</a>
@@ -55,7 +65,7 @@
                         <a class="nav-link js-scroll-trigger" href="#projects">Projects</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" href="#signup">Contact</a>
+                        <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
                     </li>
                     @if (Route::has('login'))
                     @auth
@@ -67,11 +77,11 @@
                     @endif
                     @else
                     <li class="nav-item">
-                        <a href="{{ route('login') }}" class="btn-lr">Login</a>
+                        <a href="{{ route('login') }}" class="get-started-btn">Login</a>
                     </li>
                     @if (Route::has('register'))
                     <li class="nav-item">
-                        <a href="{{ route('register') }}" class="btn-lr">Register</a>
+                        <a href="{{ route('register') }}" class="get-started-btn">Register</a>
                     </li>
                     @endif
                     @endauth
@@ -133,12 +143,25 @@
     <!-- Third party plugin JS-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
         var typed = new Typed('.type', {
             strings: ['Web Developer', 'Front-End Developer', 'Back-End Developer'],
             typeSpeed: 60,
             backSpeed: 60,
             loop:true,
+        });
+    </script>
+    <script>
+        // Init AOS
+        function aos_init() {
+            AOS.init({
+            duration: 1000,
+            once: true
+            });
+        }
+        $(window).on('load', function() {
+            aos_init();
         });
     </script>
     <script src="{{asset('js/app.js')}}"></script>
