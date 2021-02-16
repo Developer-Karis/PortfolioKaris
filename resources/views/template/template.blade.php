@@ -38,7 +38,7 @@
 
 <body id="page-top">
 
-    <div id="preloader">Loading</div>
+    <div id="preloader"></div>
     <!-- Navigation-->
     <nav class="navbar navbar-expand-lg fixed-top" id="mainNav">
         <div class="container">

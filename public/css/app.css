@@ -11205,7 +11205,7 @@ body {
 }
 
 .aboutme {
-  margin-top: 90px !important;
+  margin-top: 100px !important;
   padding: 40px 0px !important;
   border-radius: 5px;
   background-color: #fff;
@@ -11219,7 +11219,7 @@ body {
 }
 
 .about-title {
-  margin-top: 22px;
+  margin-top: 24px;
   margin-left: 40px;
   font-size: 15px;
 }
@@ -11463,5 +11463,62 @@ body {
   padding: 30px 30px;
   border-bottom: 3px solid #37517E !important;
   border-top: 3px solid #37517E !important;
+}
+
+.infos-contact h4 {
+  padding: 0 0 0 22px;
+}
+
+.infos-contact p {
+  padding: 0 0 10px 60px;
+  margin-bottom: 20px;
+  color: #6182ba;
+}
+
+.btn-contact {
+  padding: 10px 25px;
+  border-radius: 25px;
+  background-color: #47B2E4;
+  color: white;
+  outline: none !important;
+  border: none !important;
+  font-size: 17px;
+  margin-top: 18px;
+  transition: all 0.4s ease-in-out !important;
+}
+
+.btn-contact:hover {
+  background: #209dd8;
+}
+
+.newsletter {
+  padding: 50px 0px !important;
+  background: #e8efff !important;
+}
+
+.title-newsletter {
+  font-family: "Jost", sans-serif !important;
+}
+
+.input-newsletter {
+  padding: 21.5px 25px;
+  border-radius: 25px;
+}
+
+.btn-newsletter {
+  position: absolute;
+  left: 59%;
+  padding: 10px 25px;
+  border-radius: 25px;
+  border: none !important;
+  outline: none !important;
+  transition: all 0.4s ease-in-out !important;
+  color: white;
+  background-color: #47B2E4;
+  font-size: 17px;
+}
+
+.btn-newsletter:hover {
+  background: #209dd8;
 }
 

@@ -22,7 +22,7 @@
 </section><!-- End Home -->
 
 {{-- About Me --}}
-<section id="aboutme" class="spacing" data-aos="fade-right" data-aos-duration="1500">
+<section id="aboutme" class="spacing" data-aos="fade-right" data-aos-duration="1800">
     <div class="aboutme container shadow p-3 mb-5 bg-white rounded">
         <div class="spacing"></div>
         <div class="row">
@@ -131,8 +131,10 @@
                     </p>
                     <div class="spacing"></div>
                     <div class="d-flex justify-content-center align-items-center">
-                        <a href="https://we.tl/t-XR3KknJdQ3" class="btn btn-success mt-4 py-3 px-5 mr-5"
-                            download="Karis Papadopoulos CV FR" style="font-size: 18px;">Download CV</a>
+                        <a href="https://we.tl/t-XR3KknJdQ3" class="btn btn-success mt-4 py-3 px-3 ml-3 mr-4"
+                            download="Karis Papadopoulos CV EN" style="font-size: 18px;">Download CV EN</a>
+                        <a href="https://we.tl/t-XR3KknJdQ3" class="btn btn-success mt-4 py-3 px-3 mr-5"
+                            download="Karis Papadopoulos CV FR" style="font-size: 18px;">Download CV FR</a>
                     </div>
                 </div>
             </div>
@@ -318,8 +320,8 @@
 </section>
 
 {{-- Contact --}}
-<section id="contact" class="spacing">
-    <div class="container">
+<section id="contact" class="spacing" style="padding-bottom: 3rem;">
+    <div class="container" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1200">
         <div class="row mt-5">
             <div class="col-sm-12">
                 <h2 class="title-services text-center mt-5 font-weight-bold">CONTACT</h2>
@@ -328,12 +330,38 @@
         </div>
         <div class="row mt-5">
             <div class="col-5">
-                <div class="form-contact shadow mb-5 px-4 py-5">
-                    <span class="fa-stack fa-2x">
-                        <i class="fa fa-circle fa-stack-2x" style="color: #E7F5FB;"></i>
-                        <i class="fas fa-map-marker-alt fa-stack-1x" style="color: #69C0E9;"></i>
-                        <h1>Location</h1>
-                    </span>
+                <div class="form-contact shadow mb-5 px-4">
+                    <div class="infos-contact">
+                        <div class="address">
+                            <div class="d-flex">
+                                <i class="fas fa-map-marker-alt fa-2x ml-1 mt-2" style="color: #69C0E9;"></i>
+                                <h4 class="ml-2 font-weight-bold" style="padding: 0 0 0 26px;">Location : </h4>
+                            </div>
+                            <p>Avenue de la reine des prés 31, 1120 Bruxelles</p>
+                        </div>
+
+                        <div class="email">
+                            <div class="d-flex">
+                                <i class="far fa-envelope fa-2x" style="color: #69C0E9;"></i>
+                                <h4 class="ml-2 font-weight-bold">Email : </h4>
+                            </div>
+                            <p>papadopouloskaris@gmail.com</p>
+                        </div>
+
+                        <div class="phone">
+                            <div class="d-flex">
+                                <i class="fas fa-phone-alt fa-2x" style="color: #69C0E9;"></i>
+                                <h4 class="ml-2 font-weight-bold">Phone : </h4>
+                            </div>
+                            <p>+32 488 23 89 38</p>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2516.7622811149045!2d4.372215715908064!3d50.89110996339553!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c3c2fdabe1db89%3A0xf2e2e8d9cc148130!2sAvenue%20de%20la%20Reine%20des%20Pr%C3%A9s%2031%2C%201120%20Bruxelles!5e0!3m2!1sfr!2sbe!4v1613466773997!5m2!1sfr!2sbe"
+                            frameborder="0" style="border:0; width: 100%; height: 240px;" allowfullscreen=""
+                            aria-hidden="false" tabindex="0"></iframe>
+                    </div>
                 </div>
             </div>
             <div class="col-7">
@@ -341,25 +369,44 @@
                     <div class="form-row">
                         <div class="form-group col-md-6">
                             <label for="name">Your Name</label>
-                            <input type="text" name="name" class="form-control" />
+                            <input type="text" name="name" class="form-control" required />
                         </div>
                         <div class="form-group col-md-6">
                             <label for="name">Your Email</label>
-                            <input type="email" class="form-control" name="email" />
+                            <input type="email" class="form-control" name="email" required />
                         </div>
                     </div>
                     <div class="form-group">
                         <label for="">Subject</label>
-                        <input type="text" name="name" class="form-control">
+                        <input type="text" name="name" class="form-control" required>
                     </div>
                     <div class="form-group">
                         <label for="">Message</label>
-                        <textarea name="" cols="30" rows="10" style="resize: none;" class="form-control"></textarea>
+                        <textarea name="" cols="30" rows="10" style="resize: none;" class="form-control"
+                            required></textarea>
                     </div>
-                    <button class="btn btn-danger rounded text-center">qsdqs</button>
+                    <div class="text-center">
+                        <button type="submit" class="btn-contact">Send message</button>
+                    </div>
                 </form>
             </div>
         </div>
     </div>
 </section>
+
+{{-- Newsletter --}}
+<section class="newsletter" class="spacing">
+    <div class="container text-center">
+        <div class="content-newsletter">
+            <h2 class="title-newsletter">Join Our Newsletter</h2>
+            <div class="d-flex justify-content-center align-items-center mt-5">
+                <input type="text" name="" class="form-control input-newsletter shadow" style="width: 50%;">
+                <button type="submit" class="btn-newsletter shadow">Subscribe</button>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+{{-- Footer --}}
 @stop

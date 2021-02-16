@@ -1,0 +1,29 @@
+.newsletter {
+    padding: 50px 0px !important;
+    background: #e8efff !important;
+}
+
+.title-newsletter {
+    font-family: "Jost", sans-serif !important;
+}
+
+.input-newsletter {
+    padding: 21.5px 25px;
+    border-radius: 25px;
+}
+
+.btn-newsletter {
+    position: absolute;
+    left: 59%;
+    padding: 10px 25px;
+    border-radius: 25px;
+    border: none !important;
+    outline: none !important;
+    transition: all 0.4s ease-in-out !important;
+    color: white;
+    background-color: #47B2E4;
+    font-size: 17px;
+    &:hover {
+        background: #209dd8;
+    }
+}
