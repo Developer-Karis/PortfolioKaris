@@ -11027,7 +11027,7 @@ body {
   font-size: 20px;
   border: none;
   outline: none;
-  background: #298eff;
+  background: #47B2E4;
   cursor: pointer;
   width: 40px;
   height: 40px;
@@ -11036,7 +11036,7 @@ body {
 }
 
 #myBtn:hover {
-  background: #5ca8ff;
+  background: #209dd8;
 }
 
 /* Get Startet Button */
@@ -11520,5 +11520,70 @@ body {
 
 .btn-newsletter:hover {
   background: #209dd8;
+}
+
+footer {
+  background-color: #cbddff;
+}
+
+.footer {
+  padding: 50px;
+  font-size: 14px;
+}
+
+.footer h5,
+.footer h2 {
+  font-family: "Jost", sans-serif !important;
+}
+
+.footer ul li {
+  list-style-type: none;
+  color: orangered;
+}
+
+.footer ul li a {
+  text-decoration: none;
+  color: black;
+  transition: all 0.3s ease-in-out;
+}
+
+.footer ul li a:hover {
+  color: orangered;
+}
+
+.footer p {
+  white-space: pre-line;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+}
+
+.copyright {
+  padding: 10px;
+  background-color: #37517E;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 15px;
+}
+
+.copyright p {
+  margin-top: 15px;
+}
+
+.social-links i.fab {
+  background-color: #209dd8;
+  margin-left: 10px !important;
+  border-radius: 50%;
+  color: white !important;
+  display: inline-block;
+  box-shadow: 0px 0px 2px #888;
+  padding: 0.5em 0.6em;
+  transition: all 0.3s ease-in-out;
+}
+
+.social-links i.fab:hover {
+  color: #209dd8;
 }
 

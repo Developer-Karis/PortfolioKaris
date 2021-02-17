@@ -131,10 +131,11 @@
                     </p>
                     <div class="spacing"></div>
                     <div class="d-flex justify-content-center align-items-center">
-                        <a href="https://we.tl/t-XR3KknJdQ3" class="btn btn-success mt-4 py-3 px-3 ml-3 mr-4"
-                            download="Karis Papadopoulos CV EN" style="font-size: 18px;">Download CV EN</a>
-                        <a href="https://we.tl/t-XR3KknJdQ3" class="btn btn-success mt-4 py-3 px-3 mr-5"
-                            download="Karis Papadopoulos CV FR" style="font-size: 18px;">Download CV FR</a>
+                        <a href="https://we.tl/t-XR3KknJdQ3"
+                            class="btn btn-success rounded-pill mt-4 py-3 px-4 ml-3 mr-4"
+                            download="Karis Papadopoulos CV EN" style="font-size: 17px;">Download CV EN</a>
+                        <a href="https://we.tl/t-XR3KknJdQ3" class="btn btn-success rounded-pill mt-4 py-3 px-4 mr-5"
+                            download="Karis Papadopoulos CV FR" style="font-size: 17px;">Download CV FR</a>
                     </div>
                 </div>
             </div>
@@ -409,4 +410,82 @@
 
 
 {{-- Footer --}}
+<footer>
+    <div class="container">
+        <div class="footer">
+            <div class="row">
+                <div class="col-3">
+                    <h2 class="font-weight-bold mt-2">DevKaris</h2>
+                    <p>
+                        Avenue de la reine des prés 31,
+                        1120 Bruxelles.
+                    </p>
+                    <p> Phone: +32 488 23 89 38
+                        Email: papadopouloskaris@gmail.com</p>
+                </div>
+                <div class="col-3">
+                    <div class="d-flex flex-column align-items-center">
+                        <h5 class="font-weight-bold mt-3">Useful Links</h5>
+                        <ul class="p-0 mt-2">
+                            <li>
+                                <i class="fas fa-chevron-right mt-3 mr-2"></i><a href="#top">Home</a>
+                            </li>
+                            <li>
+                                <i class="fas fa-chevron-right mt-3 mr-1"></i> <a href="#about">About Me</a>
+                            </li>
+                            <li>
+                                <i class="fas fa-chevron-right mt-3 mr-1"></i> <a href="#services">Services</a>
+                            </li>
+                            <li>
+                                <i class="fas fa-chevron-right mt-3 mr-1"></i> <a href="#projects">Projects</a>
+                            </li>
+                            <li>
+                                <i class="fas fa-chevron-right mt-3 mr-1"></i> <a href="#contact">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="d-flex flex-column align-items-center">
+                        <h5 class="font-weight-bold mt-3 mr-5">Our Services</h5>
+                        <ul class="p-0 mt-2">
+                            <li>
+                                <i class="fas fa-chevron-right mt-3 mr-2"></i><a href="#services">Web Design</a>
+                            </li>
+                            <li>
+                                <i class="fas fa-chevron-right mt-3 mr-2"></i><a href="#services">Web Development</a>
+                            </li>
+                            <li>
+                                <i class="fas fa-chevron-right mt-3 mr-2"></i><a href="#services">Responsive Design</a>
+                            </li>
+                            <li>
+                                <i class="fas fa-chevron-right mt-3 mr-2"></i><a href="#services">Front-End</a>
+                            </li>
+                            <li>
+                                <i class="fas fa-chevron-right mt-3 mr-2"></i><a href="#services">Back-End</a>
+                            </li>
+                            <li>
+                                <i class="fas fa-chevron-right mt-3 mr-2"></i><a href="#services">Satisfy Customers</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <h5 class="font-weight-bold mt-3 mb-4">Our Social Networks</h5>
+                    <div class="social-links">
+                        <i class="fab fa-facebook-f"></i>
+                        <i class="fab fa-instagram"></i>
+                        <i class="fab fa-linkedin-in"></i>
+                        <i class="fab fa-twitter"></i>
+                        <i class="fab fa-google-plus-g"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>© Copyright. All Rights Reserved</p>
+        <p>Designed by Karis Papadopoulos</p>
+    </div>
+</footer>
 @stop
