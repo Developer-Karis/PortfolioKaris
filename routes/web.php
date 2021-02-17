@@ -16,7 +16,7 @@ use App\Http\Controllers\UserController;
 
 Route::get('/', function () {
     return view('welcome');
-});
+})->name('welcome');
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 

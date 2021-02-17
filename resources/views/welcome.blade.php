@@ -484,7 +484,7 @@
         </div>
     </div>
     <div class="copyright">
-        <p>© Copyright. All Rights Reserved</p>
+        <p>© Copyright, All Rights Reserved</p>
         <p>Designed by Karis Papadopoulos</p>
     </div>
 </footer>
