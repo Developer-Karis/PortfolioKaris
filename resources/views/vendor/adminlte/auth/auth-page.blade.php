@@ -14,12 +14,17 @@
 @stop
 
 @section('classes_body'){{ ($auth_type ?? 'login') . '-page' }}@stop
+<link rel="stylesheet" href="{{asset('css/app.css')}}">
 
 @section('body')
-<div class="container shadow p-3 mb-5 bg-white rounded" style="width: max-content; height: max-content;">
+<div class="ocean">
+    <div class="wave"></div>
+    <div class="wave"></div>
+</div>
+<div class="container shadow p-3 mb-5 bg-white rounded" style="width: max-content; height: max-content; z-index: 99;">
     <div class="row p-0 m-0">
         <div class="col-6 pl-0">
-            <img src="{{asset('img/auth.jpg')}}" alt="" width="550" style="mix-blend-mode: multiply;">
+            <img src="{{asset('img/auth.jpg')}}" alt="" width="550" height="400" style="mix-blend-mode: multiply;">
         </div>
         <div class="col-6">
             <div class="{{ $auth_type ?? 'login' }}-box m-auto">

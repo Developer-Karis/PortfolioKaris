@@ -22,9 +22,9 @@
 </section><!-- End Home -->
 
 {{-- About Me --}}
+<div class="spacing"></div>
 <section id="aboutme" class="spacing" data-aos="fade-right" data-aos-duration="1800">
     <div class="aboutme container shadow p-3 mb-5 bg-white rounded">
-        <div class="spacing"></div>
         <div class="row">
             <div class="col-6">
                 <div class="row">
@@ -95,7 +95,7 @@
                         <div class="col-3">
                             <span class="fa-stack fa-3x animationSkills">
                                 <i class="fa fa-square fa-stack-2x icon-background"></i>
-                                <i class="fab fa-php fa-stack-1x text-white"></i>
+                                <i class="fab fa-php fa-stack-1x" style="color: #8993C1;"></i>
                             </span>
                         </div>
                         <div class="col-3">
@@ -131,10 +131,10 @@
                     </p>
                     <div class="spacing"></div>
                     <div class="d-flex justify-content-center align-items-center">
-                        <a href="https://we.tl/t-XR3KknJdQ3"
+                        <a href="{{asset('pdf/Karis Papadopoulos CV EN.pdf')}}"
                             class="btn btn-success rounded-pill mt-4 py-3 px-4 ml-3 mr-4"
                             download="Karis Papadopoulos CV EN" style="font-size: 17px;">Download CV EN</a>
-                        <a href="https://we.tl/t-XR3KknJdQ3" class="btn btn-success rounded-pill mt-4 py-3 px-4 mr-5"
+                        <a href="{{asset('pdf/Karis Papadopoulos CV.pdf')}}" class="btn btn-success rounded-pill mt-4 py-3 px-4 mr-5"
                             download="Karis Papadopoulos CV FR" style="font-size: 17px;">Download CV FR</a>
                     </div>
                 </div>
@@ -213,13 +213,13 @@
 {{-- Projects --}}
 <section id="projects" class="spacing">
     <div class="container">
-        <div class="row mt-4">
+        <div class="row mt-3">
             <div class="col-sm-12">
                 <h2 class="title-services text-center mt-5 font-weight-bold">PROJECTS</h2>
                 <hr class="ligne-separator-services">
             </div>
         </div>
-        <div class="services mt-4">
+        <div class="services mt-5">
             <div class="row">
                 <div class="col-4" data-aos="flip-down" data-aos-delay="200">
                     <div class="card shadow mb-5 bg-white rounded" style="width: 22rem;">
@@ -473,11 +473,10 @@
                 <div class="col-3">
                     <h5 class="font-weight-bold mt-3 mb-4">Our Social Networks</h5>
                     <div class="social-links">
-                        <i class="fab fa-facebook-f"></i>
-                        <i class="fab fa-instagram"></i>
-                        <i class="fab fa-linkedin-in"></i>
-                        <i class="fab fa-twitter"></i>
-                        <i class="fab fa-google-plus-g"></i>
+                        <i class="fab fa-facebook-f circle-icon"></i>
+                        <i class="fab fa-instagram circle-icon"></i>
+                        <i class="fab fa-linkedin-in circle-icon"></i>
+                        <i class="fab fa-twitter circle-icon"></i>
                     </div>
                 </div>
             </div>
