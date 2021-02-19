@@ -229,9 +229,9 @@
                         <div class="card-body">
                             <h5 class="card-title font-weight-bold">Vivez Vos Rêves</h5>
                             <div class="d-flex mt-4">
-                                <a href="https://severeclick-dev.github.io/VivezVosReves/index.html"
+                                <a href="https://developer-karis.github.io/VivezVosReves/index.html"
                                     class="buttons-projects btn btn-success mr-2 w-100" target="_blank">Demo</a>
-                                <a href="https://github.com/SEVERECLICK-dev/VivezVosReves"
+                                <a href="https://github.com/Developer-Karis/VivezVosReves"
                                     class="buttons-projects btn btn-primary ml-2 w-100" target="_blank">Link Github</a>
                             </div>
                         </div>
@@ -245,9 +245,9 @@
                         <div class="card-body">
                             <h5 class="card-title font-weight-bold">Emporium</h5>
                             <div class="d-flex mt-4">
-                                <a href="https://severeclick-dev.github.io/KarisAbdelEmporium/#home"
+                                <a href="https://developer-karis.github.io/KarisAbdelEmporium/#home"
                                     class="buttons-projects btn btn-success mr-2 w-100" target="_blank">Demo</a>
-                                <a href="https://github.com/SEVERECLICK-dev/KarisAbdelEmporium"
+                                <a href="https://github.com/Developer-Karis/KarisAbdelEmporium"
                                     class="buttons-projects btn btn-primary ml-2 w-100" target="_blank">Link Github</a>
                             </div>
                         </div>
@@ -261,10 +261,10 @@
                         <div class="card-body">
                             <h5 class="card-title font-weight-bold">Site du Chef</h5>
                             <div class="d-flex mt-4">
-                                <a href="https://severeclick-dev.github.io/siteDuChef/#home"
+                                <a href="https://developer-karis.github.io/siteDuChef/#home"
                                     class="buttons-projects btn btn-success mr-2 w-100" target="_blank">Demo</a>
-                                <a href="https://github.com/SEVERECLICK-dev/siteDuChef"
-                                    class="buttons-projects btn btn-primary ml-2 w-100">Link Github</a>
+                                <a href="https://github.com/Developer-Karis/siteDuChef"
+                                    class="buttons-projects btn btn-primary ml-2 w-100" target="_blank">Link Github</a>
                             </div>
                         </div>
                     </div>
@@ -279,9 +279,9 @@
                         <div class="card-body">
                             <h5 class="card-title font-weight-bold">My Travel</h5>
                             <div class="d-flex mt-4">
-                                <a href="https://severeclick-dev.github.io/ProjectMyTravel/"
+                                <a href="https://developer-karis.github.io/ProjectMyTravel/"
                                     class="buttons-projects btn btn-success mr-2 w-100" target="_blank">Demo</a>
-                                <a href="https://github.com/SEVERECLICK-dev/ProjectMyTravel"
+                                <a href="https://github.com/Developer-Karis/ProjectMyTravel"
                                     class="buttons-projects btn btn-primary ml-2 w-100" target="_blank">Link Github</a>
                             </div>
                         </div>
@@ -295,7 +295,7 @@
                         <div class="card-body">
                             <h5 class="card-title font-weight-bold">TemplatePortfolio</h5>
                             <div class="d-flex mt-4">
-                                <a href="https://github.com/SEVERECLICK-dev/TemplatePortfolio"
+                                <a href="https://github.com/Developer-Karis/TemplatePortfolio"
                                     class="buttons-projects btn btn-primary w-50 m-auto" target="_blank">Link Github</a>
                             </div>
                         </div>
@@ -309,7 +309,7 @@
                         <div class="card-body">
                             <h5 class="card-title font-weight-bold">Help Messenger</h5>
                             <div class="d-flex mt-4">
-                                <a href="https://github.com/SEVERECLICK-dev/HackathonGroupe4"
+                                <a href="https://github.com/Developer-Karis/HackathonGroupe4"
                                     class="buttons-projects btn btn-primary w-50 m-auto" target="_blank">Link Github</a>
                             </div>
                         </div>
@@ -415,7 +415,7 @@
         <div class="footer">
             <div class="row">
                 <div class="col-3">
-                    <h2 class="font-weight-bold mt-2">DevKaris</h2>
+                    <h2 class="font-weight-bold mt-2">Portfolio Karis</h2>
                     <p>
                         Avenue de la reine des prés 31,
                         1120 Bruxelles.
@@ -483,7 +483,7 @@
         </div>
     </div>
     <div class="copyright">
-        <p>© Copyright, All Rights Reserved</p>
+        <p>© Copyright 2021, All Rights Reserved</p>
         <p>Designed by Karis Papadopoulos</p>
     </div>
 </footer>

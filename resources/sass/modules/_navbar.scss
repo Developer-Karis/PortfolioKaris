@@ -96,6 +96,7 @@ body {
 .user-name {
     font-size: 15px;
     text-transform: capitalize;
+    color: white;
 }
 
 // Button Back to top
@@ -114,6 +115,7 @@ body {
     height: 40px;
     border-radius: 50%;
     color: white;
+    transition: all 0.3s ease-in-out;
 }
   
 #myBtn:hover {

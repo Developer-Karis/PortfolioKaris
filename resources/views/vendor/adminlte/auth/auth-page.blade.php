@@ -39,7 +39,7 @@
 
                     {{-- Card Footer --}}
                     @hasSection('auth_footer')
-                    <div class="{{ config('adminlte.classes_auth_footer', '') }}">
+                    <div class="text-center {{ config('adminlte.classes_auth_footer', '') }}">
                         @yield('auth_footer')
                     </div>
                     @endif

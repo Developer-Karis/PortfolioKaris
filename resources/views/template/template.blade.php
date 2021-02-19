@@ -43,7 +43,7 @@
     <nav class="navbar navbar-expand-lg fixed-top" id="mainNav">
         <div class="container">
             <a class="navbar-brand js-scroll-trigger font-weight-bold" href="/">
-                DevKaris</a>
+                Portfolio Karis</a>
             <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
                 data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
                 aria-label="Toggle navigation">
@@ -69,12 +69,6 @@
                     </li>
                     @if (Route::has('login'))
                     @auth
-                    @if (Auth::user()->role_id == 1)
-                    <li class="nav-item">
-                        <a href="{{ url('/home') }}" class="btn btn-primary py-2 px-3 mr-3 ml-3"
-                            style="border: 2px solid black;">Admin</a>
-                    </li>
-                    @endif
                     @else
                     <li class="nav-item">
                         <a href="{{ route('login') }}" class="get-started-btn">Login</a>
@@ -89,34 +83,22 @@
 
                     @auth
                     <div class="ml-4 dropdown show">
-                        <a class="btn btn-white dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
-                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            <img src="{{asset('img/avatardefault.png')}}" alt="" height="40" class="mr-1">
+                        <a class="btn btn-white dropdown-toggle text-white" style="box-shadow: none;" href="#"
+                            role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
+                            aria-expanded="false">
+                            <img src="{{asset('img/avatardefault.png')}}" alt="" height="45" class="mr-1">
                             <span class="user-name">{{Auth::user()->name}}</span>
                         </a>
                         <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                            @if (Auth::user()->role_id == 1)
+                                <a href="{{ url('/home') }}" class="dropdown-item">
+                                    <i class="fas fa-users-cog fa-lg"></i>
+                                    <span>Admin</span>
+                                </a>
+                            @endif
                             <a class="dropdown-item" href="profile">
                                 <i class="fas fa-user fa-lg"></i>
                                 <span>Profile</span>
-                            </a>
-                            <a class="dropdown-item" href="#">
-                                <i class="fas fa-newspaper fa-lg"></i>
-                                <span>Add Post</span>
-                            </a>
-                            <a class="dropdown-item" href="#">
-                                <i class="fas fa-bell fa-lg"></i>
-                                <span>Notifications</span>
-                                <span class="badge badge-primary ml-2" style="padding: 5px !important;">4</span>
-                            </a>
-                            <a class="dropdown-item" href="#">
-                                <i class="fas fa-envelope fa-lg"></i>
-                                <span>Messages</span>
-                                <span class="badge badge-danger ml-2"
-                                    style="padding: 5px !important; margin-left: 25px !important;">4</span>
-                            </a>
-                            <a class="dropdown-item" href="#">
-                                <i class="fas fa-cog fa-lg"></i>
-                                <span>Settings</span>
                             </a>
                             <li>
                                 <hr class="dropdown-divider">

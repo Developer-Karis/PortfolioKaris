@@ -11017,6 +11017,7 @@ body {
 .user-name {
   font-size: 15px;
   text-transform: capitalize;
+  color: white;
 }
 
 #myBtn {
@@ -11034,6 +11035,7 @@ body {
   height: 40px;
   border-radius: 50%;
   color: white;
+  transition: all 0.3s ease-in-out;
 }
 
 #myBtn:hover {
@@ -11595,6 +11597,7 @@ footer {
   padding: 5px;
   cursor: pointer;
   margin-left: 10px;
+  transition: all 0.3s ease-in-out;
 }
 
 .social-links .circle-icon:hover {

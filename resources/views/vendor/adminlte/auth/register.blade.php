@@ -14,7 +14,7 @@
 @section('auth_header', __('adminlte::adminlte.register_message'))
 
 @section('auth_body')
-<h2 class="mb-4 text-center" style="font-family: 'Jost', sans-serif !important; color: black">Register</h2>
+<h2 class="mb-4 text-center" style="font-family: 'Jost', sans-serif !important; color: black;">Register</h2>
 <form action="{{ $register_url }}" method="post">
     {{ csrf_field() }}
 
