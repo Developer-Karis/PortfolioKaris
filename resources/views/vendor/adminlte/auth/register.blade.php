@@ -93,9 +93,9 @@
 @stop
 
 @section('auth_footer')
-<p class="my-0">
-    <a href="{{ $login_url }}">
-        {{ __('adminlte::adminlte.i_already_have_a_membership') }}
-    </a>
-</p>
+<a href="{{route('welcome')}}" class="btn btn-primary rounded-pill mr-2 px-3 py-2">Go
+    Back</a>
+<a href="{{ $login_url }}" class="btn btn-primary rounded-pill px-3 py-2 text-white">
+    {{ __('adminlte::adminlte.i_already_have_a_membership') }}
+</a>
 @stop

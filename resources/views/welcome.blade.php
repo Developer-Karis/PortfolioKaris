@@ -60,25 +60,25 @@
                 <div class="skill">
                     <h2 class="mb-5 mt-5 font-weight-bold">My Skills</h2>
                     <div class="row">
-                        <div class="col-3">
+                        <div class="col-3" data-aos="zoom-in" data-aos-delay="200">
                             <span class="fa-stack fa-3x animationSkills">
                                 <i class="fa fa-square fa-stack-2x icon-background"></i>
                                 <i class="fab fa-html5 fa-stack-1x" style="color: #E54D26;"></i>
                             </span>
                         </div>
-                        <div class="col-3">
+                        <div class="col-3" data-aos="zoom-in" data-aos-delay="300">
                             <span class="fa-stack fa-3x animationSkills">
                                 <i class="fa fa-square fa-stack-2x icon-background"></i>
                                 <i class="fab fa-css3-alt fa-stack-1x" style="color: #379AD5;"></i>
                             </span>
                         </div>
-                        <div class="col-3">
+                        <div class="col-3" data-aos="zoom-in" data-aos-delay="400">
                             <span class="fa-stack fa-3x animationSkills">
                                 <i class="fa fa-square fa-stack-2x icon-background"></i>
                                 <i class="fab fa-sass fa-stack-1x" style="color: #C76494;"></i>
                             </span>
                         </div>
-                        <div class="col-3">
+                        <div class="col-3" data-aos="zoom-in" data-aos-delay="500">
                             <span class="fa-stack fa-3x animationSkills">
                                 <i class="fa fa-square fa-stack-2x icon-background"></i>
                                 <i class="fab fa-bootstrap fa-stack-1x" style="color: purple;"></i>
@@ -86,25 +86,25 @@
                         </div>
                     </div>
                     <div class="row mt-4">
-                        <div class="col-3">
+                        <div class="col-3" data-aos="zoom-in" data-aos-delay="600">
                             <span class="fa-stack fa-3x animationSkills">
                                 <i class="fa fa-square fa-stack-2x icon-background"></i>
                                 <i class="fab fa-js fa-stack-1x" style="color: yellow;"></i>
                             </span>
                         </div>
-                        <div class="col-3">
+                        <div class="col-3" data-aos="zoom-in" data-aos-delay="700">
                             <span class="fa-stack fa-3x animationSkills">
                                 <i class="fa fa-square fa-stack-2x icon-background"></i>
                                 <i class="fab fa-php fa-stack-1x" style="color: #8993C1;"></i>
                             </span>
                         </div>
-                        <div class="col-3">
+                        <div class="col-3" data-aos="zoom-in" data-aos-delay="800">
                             <span class="fa-stack fa-3x animationSkills">
                                 <i class="fa fa-square fa-stack-2x icon-background"></i>
                                 <i class="fab fa-laravel fa-stack-1x text-danger"></i>
                             </span>
                         </div>
-                        <div class="col-3">
+                        <div class="col-3" data-aos="zoom-in" data-aos-delay="900">
                             <span class="fa-stack fa-3x animationSkills">
                                 <i class="fa fa-square fa-stack-2x icon-background"></i>
                                 <i class="fas fa-database fa-stack-1x" style="color: #005681;"></i>
@@ -134,8 +134,9 @@
                         <a href="{{asset('pdf/Karis Papadopoulos CV EN.pdf')}}"
                             class="btn btn-success rounded-pill mt-4 py-3 px-4 ml-3 mr-4"
                             download="Karis Papadopoulos CV EN" style="font-size: 17px;">Download CV EN</a>
-                        <a href="{{asset('pdf/Karis Papadopoulos CV.pdf')}}" class="btn btn-success rounded-pill mt-4 py-3 px-4 mr-5"
-                            download="Karis Papadopoulos CV FR" style="font-size: 17px;">Download CV FR</a>
+                        <a href="{{asset('pdf/Karis Papadopoulos CV.pdf')}}"
+                            class="btn btn-success rounded-pill mt-4 py-3 px-4 mr-5" download="Karis Papadopoulos CV FR"
+                            style="font-size: 17px;">Download CV FR</a>
                     </div>
                 </div>
             </div>
@@ -431,7 +432,7 @@
                                 <i class="fas fa-chevron-right mt-3 mr-2"></i><a href="#top">Home</a>
                             </li>
                             <li>
-                                <i class="fas fa-chevron-right mt-3 mr-1"></i> <a href="#about">About Me</a>
+                                <i class="fas fa-chevron-right mt-3 mr-1"></i> <a href="#aboutme">About Me</a>
                             </li>
                             <li>
                                 <i class="fas fa-chevron-right mt-3 mr-1"></i> <a href="#services">Services</a>

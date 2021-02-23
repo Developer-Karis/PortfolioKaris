@@ -89,10 +89,12 @@
 
 {{-- Register link --}}
 @if($register_url)
-<p class="my-0">
-    <a href="{{ $register_url }}">
+<div class="mt-5">
+    <a href="{{route('welcome')}}" class="btn btn-primary rounded-pill mr-2 px-3 py-2">Go
+        Back</a>
+    <a href="{{ $register_url }}" class="btn btn-primary rounded-pill mr-2 px-3 py-2">
         {{ __('adminlte::adminlte.register_a_new_membership') }}
     </a>
-</p>
+</div>
 @endif
 @stop

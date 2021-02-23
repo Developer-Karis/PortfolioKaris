@@ -24,7 +24,7 @@
 <div class="container shadow p-3 mb-5 bg-white rounded" style="width: max-content; height: max-content; z-index: 99;">
     <div class="row p-0 m-0">
         <div class="col-6 pl-0">
-            <img src="{{asset('img/auth.jpg')}}" alt="" width="550" height="400" style="mix-blend-mode: multiply;">
+            <img src="{{asset('img/auth.jpg')}}" alt="" width="600" height="415" style="mix-blend-mode: multiply;">
         </div>
         <div class="col-6">
             <div class="{{ $auth_type ?? 'login' }}-box m-auto">
@@ -36,17 +36,12 @@
                         class="card-body {{ $auth_type ?? 'login' }}-card-body {{ config('adminlte.classes_auth_body', '') }}">
                         @yield('auth_body')
                     </div>
-
                     {{-- Card Footer --}}
                     @hasSection('auth_footer')
                     <div class="text-center {{ config('adminlte.classes_auth_footer', '') }}">
                         @yield('auth_footer')
                     </div>
                     @endif
-                    <div class="d-flex mt-4">
-                        <a href="{{route('welcome')}}" class="btn btn-primary rounded-pill m-auto py-2 px-5">Go
-                            Back</a>
-                    </div>
                 </div>
             </div>
         </div>
