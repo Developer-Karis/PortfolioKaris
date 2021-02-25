@@ -10918,7 +10918,7 @@ body {
 }
 
 ::-webkit-scrollbar {
-  width: 9px;
+  width: 10px;
   background-color: black;
 }
 
